@@ -1,0 +1,22 @@
+{
+  "body": {
+    "message": "hello world",
+    "Item": {                                                                                                                                                                          
+		"title": "My First Note",                                                                                                                                                      
+		"content": "Content of my first note",                                                                                                                                         
+		"cat": "general",                                                                                                                                                              
+		"timestamp": 1723331552
+	}                                                                                                                                                                                  
+  },
+  "queryStringParameters": {
+    "limit": 5
+  },
+  "pathParameters": {
+	"note_id": "robert.fairchild@yahoo.com:eebf7dfc-4cbd-45e0-9344-71f3e7a65e39",
+	"timestamp": 1723331552
+  },
+  "headers": {
+	"app_user_id": "robert.fairchild@yahoo.com",                                                                                                                                       
+	"app_user_name": "Rob Fairchild"                                                                                                                                                   
+  }
+}

@@ -1,0 +1,37 @@
+# More information about the configuration file can be found here:
+# https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-config.html
+version = 0.1
+
+[default]
+[default.global.parameters]
+stack_name = "sls-notes-backend"
+
+[default.build.parameters]
+cached = true
+parallel = true
+
+[default.validate.parameters]
+lint = true
+
+[default.deploy.parameters]
+stack_name = "sls-notes-backend"
+resolve_s3 = false
+s3_bucket = "sam-build-us-east-1-523931177792"
+s3_prefix = "sls-notes"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+confirm_changeset = true
+
+[default.package.parameters]
+
+[default.sync.parameters]
+watch = true
+resolve_s3 = false
+s3_bucket = "sam-build-us-east-1-523931177792"
+s3_prefix = "sls-notes"
+
+[default.local_start_api.parameters]
+warm_containers = "EAGER"
+
+[default.local_start_lambda.parameters]
+warm_containers = "EAGER"
